@@ -1,0 +1,12 @@
+.template{
+    display: flex;
+    align-items: center;
+    background:rgb(38, 37, 37);
+    border-radius:10px;
+    height:auto;
+    width:100%;
+}
+
+.template > p{
+    word-wrap: break-word;
+}

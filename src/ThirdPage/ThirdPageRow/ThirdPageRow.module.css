@@ -1,0 +1,30 @@
+.template{
+    width:inherit;
+    height:5vh;
+    background:rgb(51, 48, 48);
+    border: 2px solid rgb(38, 37, 37);
+    border-radius:50px;
+    display:flex;
+    align-items:center;
+    margin:.5%;
+}
+
+.position{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:rgb(57, 56, 56);
+    width:1.5rem;
+    height:1.5rem;
+    border-radius:50%;
+    color:rgb(232, 229, 229);
+    font-family:'roboto-slab';
+    margin-left:1%;
+}
+
+.text{
+    color:rgb(245, 242, 242);
+    margin-left:1%;
+    word-wrap: break-word;
+    display: inline-block;
+}

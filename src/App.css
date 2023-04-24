@@ -1,38 +1,153 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  margin: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  background: black;
+}
+
+.logo {
+  width: 1rem;
+  height: 1rem;
+}
+
+.signup {
+  padding-left: 1%;
+  padding-right: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  height: 2rem;
+}
+
+.signUpBtn {
   color: white;
+  border: none;
+  background: black;
+  width: 5rem;
+  height: 2rem;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.signInBtn {
+  color: white;
+  border: none;
+  background: rgb(255, 105, 31);
+  width: 5rem;
+  height: 2rem;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  background: rgb(31, 30, 30);
+}
+
+.content {
+  padding: 1rem;
+  max-width: inherit;
+  height: auto;
+}
+
+.banner {
+  max-width: 100%;
+}
+
+.buttons {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 6rem;
+}
+
+/* page buttons */
+
+.btn {
+  width: calc(100% / 3);
+  height: 5rem;
+  cursor: pointer;
+  background: rgb(50, 50, 51);
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.btn:nth-child(even) {
+  border-radius: 0;
+}
+
+.btn:nth-child(1) {
+  border-radius: 10px 0 0 10px;
+}
+
+.btn:nth-child(3) {
+  border-radius: 0 10px 10px 0;
+}
+
+.date {
+  font-size: smaller;
+  color: lightgray;
+}
+
+.name {
+  color: white;
+  font-size: 15px;
+}
+
+.clickedBtn {
+  width: calc(100% / 3);
+  height: 6rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background: rgb(255, 105, 31);
+}
+
+.lastButton {
+  margin-top:1%;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lastButton > button {
+  background: rgb(255, 105, 31);
+  width:10rem;
+  height:3rem;
+  border:none;
+  color:white;
+  border-radius:5px;
+  cursor: pointer;
+  font-size:1rem;
+}
+
+.lastLine{
+  margin-top:1%;
+  width:100%;
+  height:.5vh;
+  background: rgb(255, 105, 31);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius:10px;
+  background: #292929; 
 }

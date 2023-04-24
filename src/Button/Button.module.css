@@ -1,0 +1,39 @@
+.btn {
+  width: calc(100% / 3);
+  height: 5rem;
+  cursor: pointer;
+  background: rgb(50, 50, 51);
+  border: none;
+}
+
+.btn:nth-child(even) {
+  border-radius: 0;
+}
+
+.btn:nth-child(1) {
+  border-radius: 10px 0 0 10px;
+}
+
+.btn:nth-child(3) {
+  border-radius: 0 10px 10px 0;
+}
+
+.date {
+  font-size: smaller;
+  color: lightgray;
+}
+
+.name {
+  color: white;
+  font-size:15px;
+}
+
+.clickedBtn {
+    width: calc(100% / 3);
+    height: 6rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background: rgb(255, 105, 31);
+  }
+  

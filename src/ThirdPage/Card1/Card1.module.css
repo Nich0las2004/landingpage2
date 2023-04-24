@@ -1,0 +1,15 @@
+.template {
+  background: rgb(37, 36, 36);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  align-self: flex-start;
+}
+
+h4 {
+  color: white;
+  font-weight: 400;
+}

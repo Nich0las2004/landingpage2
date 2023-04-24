@@ -1,0 +1,33 @@
+.columnInfo {
+  color: white;
+  background: rgb(16, 16, 17);
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid rgb(34, 34, 35);
+  width: 100%;
+  height: 20%;
+  margin-top:1%;
+}
+
+.position {
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  background: rgb(50, 50, 50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.voucher {
+  font-size: 1.5rem;
+}
+
+.prize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
